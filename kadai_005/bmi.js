@@ -1,11 +1,11 @@
 let weight;
-weight='体重:68kg';
+weight=68;
 
 let height;
-height='身長:1.7m';
+height=1.7;
 
 let bmi;
-bmi=68/(1.7*1.7);
+bmi=weight/(height*height);
 
 console.log(weight);
 console.log(height);
