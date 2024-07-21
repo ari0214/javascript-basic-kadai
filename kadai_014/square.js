@@ -1,5 +1,6 @@
 const square = (number) => {
-console.log(number*10);
+return number*10;
 }
 
-square(10);
+
+console.log(square (10));
